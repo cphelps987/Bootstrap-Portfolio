@@ -1,0 +1,64 @@
+body {
+    background-image: url("http://www.charlottebrayley.co.uk/images/vignetteBG.jpg");
+}
+.navbar-brand {
+    margin-left: 20px;
+    margin-top: 40px;
+    color: white;
+}
+.navbar {
+    background-color: rgba(116,118,120,0.96);
+}
+
+a.nav-link active {
+    color: white;
+}
+
+a.nav-link {
+    color: white;
+}
+
+.container-fluid {
+    margin: 20px;
+}
+
+p {
+    max-width: 760px;
+}
+
+.group {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.selfie {
+    width: 25%;
+    height: relative;
+    margin: 20px 20px 20px 0;
+}
+
+a:hover {
+    color: powderblue;
+}
+
+a {
+    color: black;
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+/*No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575px) { ... }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 767px) { ... }
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 991px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1199px) { ... }
