@@ -19,6 +19,9 @@ a.nav-link active {
 a.nav-link {
     color: white;
     }
+#card {
+    margin-top: -20px;
+}
 
 .container-fluid {
     margin: 20px;
@@ -27,9 +30,6 @@ a.nav-link {
 .group {
     margin-left: 20px;
     margin-bottom: 20px;
-    }
-#card {
-    margin-top: -20px;
     }
 
 img {
