@@ -39,11 +39,6 @@ p {
     padding: 10px 0px;
     }
 
-.group {
-    margin-left: 20px;
-    margin-bottom: 20px;
-    }
-
 #selfie {
     width: 100%;
     height: auto;
@@ -58,13 +53,13 @@ a {
     color: black;
     }
 
-#1, #2, #3{
+#1, #2 {
     width: 33.33%;
     height: auto;
     vertical-align: none;
     }
 
-#project, #project1, #project2 {
+#project, #project1 {
     margin: 5px 0px 40px 0px;
     text-decoration: none;
     resize: inherit;
