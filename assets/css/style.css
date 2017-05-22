@@ -1,73 +1,109 @@
 body {
     background-image: url("http://www.charlottebrayley.co.uk/images/vignetteBG.jpg");
-}
+    height: 100%;
+    }
+
 .navbar-brand {
     margin-left: 20px;
     margin-top: 40px;
     color: white;
-}
+    }
 .navbar {
     background-color: rgba(116,118,120,0.96);
-}
+    }
 
 a.nav-link active {
     color: white;
-}
+    }
 
 a.nav-link {
     color: white;
-}
+    }
 
 .container-fluid {
     margin: 20px;
-}
-
-p {
-    max-width: 760px;
-}
+    }
 
 .group {
     margin-left: 20px;
     margin-bottom: 20px;
-}
+    }
 
 img {
-    width: 50%;
-    height: relative;
+    width: inherit;
+    vertical-align: inherit;
+    }
+
+p {
+    max-width: 760px;
+    }
+
+.group {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    }
+
+#selfie {
+    width: 100%;
+    height: auto;
     margin: 5px 20px 20px 0;
-}
+    }
 
 a:hover {
     color: powderblue;
-}
+    }
 
 a {
     color: black;
+    }
+
+#1, #2, #3{
+    width: 33.33%;
+    height: auto;
+    vertical-align: none;
+    }
+
+#project, #project1, #project2 {
+    margin: 5px 0px 40px 0px;
+    text-decoration: none;
+    resize: inherit;
+    }
 
 
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+    }
 
+/* Set the fixed height of the footer here */
+#footer {
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+    background-color: powderblue;
+    position: absolute;
+    }
+#footer1 {
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+    background-color: powderblue;
+    position: absolute;
+    }
 
-/* Extra small devices (portrait phones, less than 576px)*/
-/*No media query since this is the default in Bootstrap */
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (max-width: 575px) {
-
-}
-
-
-/* Medium devices (tablets, 768px and up)*/
-@media (max-width: 767px) {
-
-}
-
-
-/* Large devices (desktops, 992px and up)*/
-@media (max-width: 991px) {
-
-}
-
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (max-width: 1199px) {
-
+@media screen and (max-width: 769px) {
+    #footer {
+        position: relative;
+    }
 }
