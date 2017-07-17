@@ -33,7 +33,7 @@ a.nav-link {
     }
 
 img {
-    width: inherit;
+    width: 3in;
     vertical-align: inherit;
     }
 
@@ -56,6 +56,7 @@ a {
     color: black;
     }
 
+/*noinspection ALL*/
 #1, #2 {
     width: 33.33%;
     height: auto;
